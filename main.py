@@ -2,7 +2,8 @@ print(("-" * 30) + "\nVücut Kütle indeksi Hesaplayıcı\n" + ("-" * 30))
 
 boy = int(input("Lütfen boyunuzu giriniz(cm cinsinden): "))
 kilo = float(input("Lütfen kilonuzu giriniz: "))
-sonuc = kilo/((boy/100) ** 2)
+sonuc2 = kilo/((boy/100) ** 2)
+sonuc = round(sonuc2, 2)
 
 print("Vücut kitle indeksiniz {}".format(sonuc))
 
